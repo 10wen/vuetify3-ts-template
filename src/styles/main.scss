@@ -1,0 +1,5 @@
+/*  全局变量放在最前面 */
+@import './variables.scss';
+@import './override.scss';
+
+/*  导入其他子样式文件 */
