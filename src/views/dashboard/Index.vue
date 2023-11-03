@@ -1,5 +1,7 @@
 <script setup lang="ts">
+import ChartCard from "@/components/dashboard/ChartCard.vue";
 import SalesCard from "@/components/dashboard/SalesCard.vue"
+import SourcesCard from "@/components/dashboard/SourcesCard.vue";
 
 </script>
 
@@ -27,7 +29,7 @@ import SalesCard from "@/components/dashboard/SalesCard.vue"
       </v-col>
       <v-col cols="12" md="6" xl="4">
         <v-card height="420">
-          
+          <SourcesCard />
         </v-card>
       </v-col>
     </v-row>
@@ -43,7 +45,7 @@ import SalesCard from "@/components/dashboard/SalesCard.vue"
       <v-col cols="12" xl="4">
         <!-- Task Card  -->
         <v-card height="420">
-          
+          <ChartCard />
         </v-card>
       </v-col>
     </v-row>

@@ -1,3 +1,7 @@
+<!--
+  * @description apexchart 的使用
+-->
+
 <script setup lang="ts">
 import moment from 'moment'
 import { useTheme } from 'vuetify'
